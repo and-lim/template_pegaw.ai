@@ -216,8 +216,8 @@ h6,
         background: var(--secondary);
     }
 }
-/* contact */
-.contact:hover{
+/* get started */
+.login:hover{
 background-color: var(--secondary);
 }
 
