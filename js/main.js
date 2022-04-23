@@ -15,6 +15,11 @@
     // Initiate the wowjs
     new WOW().init();
 
+    //gsap
+    gsap.registerPlugin(TextPlugin);
+    gsap.to('.title',{duration: 1.5, delay:1, text: 'Platform Manajemen Pegawai'}) 
+    gsap.to('.lead',{duration: 1.5, delay:2.5, text: 'Mudahkan dan Sederhanakan seluruh manajemen pegawai dalam satu platform'}) 
+
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -54,6 +59,8 @@
         time: 2000
     });
 
+
+  
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
