@@ -78,13 +78,13 @@
             </nav>
 
             <div class="container-xxl  bg-primary hero-header ">
-                <div class="container px-lg-5 py-lg-5 wow animate__animated animate__bounceInDown"data-wow-delay="1s">
+                <div class="container px-lg-5 py-lg-5 ">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 py-2 text-center text-lg-start">
-                            <h1 class="text-secondary mb-4 animate__animated animate__slideInDown">Feature</h1>
-                            <p class="text-white pb-3 animated slideInDown">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>
-                            <a href="" class="btn btn-secondary py-sm-2 px-sm-4 rounded-pill me-3 animate__animated animate__slideInLeft">Read More</a>
-                            <a href="" class="btn btn-light py-sm-2 px-sm-4 rounded-pill animate__animated animate__slideInRight">Contact Us</a>
+                            <h1 class="text-secondary mb-4 title"></h1>
+                            <p class="text-white pb-3 lead"></p>
+                            <a href="" class="btn btn-secondary py-sm-2 px-sm-4 rounded-pill me-3 wow animate__animated animate__fadeInLeft" data-wow-delay="3.5s">Read More</a>
+
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
                             <img class="img-fluid animated zoomIn" src="img/feature-5-1.png" alt="">
@@ -325,10 +325,21 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="https://kit.fontawesome.com/115d5e61ee.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+
     
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+    
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.title',{duration: 1.5, delay:1, text: 'Administrasi pegawai komprehensif & fleksibel'}) 
+        gsap.to('.lead',{duration: 1.5, delay:2.5, text: 'Pegaw.ai menawarkan solusi untuk segala jenis kebutuhan dari berbagai skala perusahaan dan industri dengan teknologi HRIS berbasis cloud'}) 
+        
+    </script>
 </body>
 
 </html>
