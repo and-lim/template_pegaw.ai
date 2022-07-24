@@ -143,6 +143,14 @@ h6,
     max-height: 45px;
 }
 
+@media (max-width:500px) {
+    .navbar{
+        position: fixed !important;
+        width: 100%;
+    }
+}
+
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
@@ -215,6 +223,16 @@ h6,
         color: var(--dark);
         background: var(--secondary);
     }
+}
+
+.nav-tab-btn-light:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.nav-tab-btn-dark:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 /* get started */
 .login:hover{
@@ -436,6 +454,13 @@ background-color: var(--secondary);
 .pricing .nav-link.active {
     color: #FFFFFF;
     background: var(--primary)
+}
+.card{
+    transition: ease 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
 }
 
 /*** Fact ***/
