@@ -1,10 +1,18 @@
 /********** Template CSS **********/
 :root {
-    --primary: #157ac8;
+    --primary: #223345;
     --secondary: #ffc107;
     --light: #cbc9d0;
     --dark: #04000B;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 ; 
+}
+
 
 
 .bg-gold{
@@ -12,6 +20,9 @@ background-color: #ffe493;
 }
 .bg-silver{
     background-color: silver;
+}
+.bg-primary{
+    background-color: rgb(20, 45, 233) !important;
 }
 
 /*** Spinner ***/
@@ -372,7 +383,16 @@ background-color: var(--secondary);
 .feature-item:hover {
     margin-top: -15px;
 }
-
+li.btn-tab{
+    transition: ease 0.3s;
+  }
+  
+ li.btn-tab:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    transform: translateY(-10px) !important;
+    border-radius: 15px;
+  }
+  
 
 /*** About ***/
 .progress {
@@ -735,4 +755,20 @@ background-color: var(--secondary);
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
     color: var(--secondary);
+}
+
+.animate-img{
+    animation: up-down 3s linear infinite;
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(-20px);
+      }
+      50%{
+        transform: translateY(20px);
+      }
+      100%{
+        transform: translateY(-20px);
+      }
 }
