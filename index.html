@@ -100,7 +100,8 @@
                 <div class="container px-lg-5">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-secondary mb-4 title"></h1>
+                            <h1 class="text-secondary mb-4">Platform Manajemen <span class="type"></span></h1>
+    
                             <p class="text-white pb-3 lead"></p>
                             <a href="" class="btn btn-secondary py-sm-2 px-sm-4 rounded-pill me-3 wow animated fadeInLeft" data-wow-delay="3.5s">Read More</a>
                             <a href="" class="btn btn-light py-sm-2 px-sm-4 rounded-pill wow animated fadeInRight"data-wow-delay="3.5s">Contact Us</a>
@@ -616,7 +617,7 @@
     <script src="https://kit.fontawesome.com/115d5e61ee.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
@@ -649,11 +650,23 @@
             // },
         });
     </script>
-    
+<script>
+	var typed = new Typed (".type",{
+		strings: [
+			"Pegaw.ai",
+			""
+
+		],
+		typeSpeed:60,
+		backSpeed:60,
+		loop:true
+	})
+</script>
+
+
 <script>
 
     gsap.registerPlugin(TextPlugin);
-    gsap.to('.title',{duration: 1.5, delay:1, text: 'Platform Manajemen Pegawai'}) 
     gsap.to('.lead',{duration: 1.5, delay:2.5, text: 'Mudahkan dan Sederhanakan seluruh manajemen pegawai dalam satu platform'}) 
     
 </script>
