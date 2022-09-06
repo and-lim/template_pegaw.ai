@@ -24,8 +24,7 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="csslibary/animate.css">
-    <link rel="stylesheet" href="csslibary/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="lib/aos.css">
 
    
@@ -59,10 +58,37 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-5 py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="feature.html" class="nav-item nav-link ">Fitur</a>
-                        <a href="price.html" class="nav-item nav-link">Harga</a>
+                    <div class="navbar-nav me-lg-auto ms-lg-0 ">
+                        <a href="index.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">                           
+                        <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                            <i class="fa fa-home align-middle ms-auto me-auto px-1 mx-4 "></i>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center">
+                            <div>
+                                Home
+                            </div>
+                         </div>
+                        </a>
+                        <a href="feature.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">
+                            <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                                <i class="fa fa-list align-middle ms-auto me-auto px-1 mx-4 "></i>
+                             </div>
+                             <div class="d-flex align-items-center justify-content-center">
+                                <div>
+                                    Fitur
+                                </div>
+                             </div>   
+                        </a>    
+                        <a href="price.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">
+                            <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                                <i class="fa fa-dollar align-middle ms-auto me-auto px-1 mx-4 "></i>
+                             </div>
+                             <div class="d-flex align-items-center justify-content-center">
+                                <div>
+                                    Harga
+                                </div>
+                             </div>   
+                        </a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
@@ -85,8 +111,27 @@
                                 </a>
                             </div>
                         </div>
-                        <a href="blog.html" class="nav-item nav-link active">Blog</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="blog.html" class="nav-item nav-link active d-flex justify-content-between flex-row-reverse flex-lg-row">
+                            <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                                <i class="fa fa-blog align-middle ms-auto me-auto px-1 mx-4 "></i>
+                             </div>
+                             <div class="d-flex align-items-center justify-content-center">
+                                <div>
+                                    Blog
+                                </div>
+                             </div>   
+                        </a>
+                        <a href="contact.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">
+                            <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                                <i class="fa fa-phone align-middle ms-auto me-auto px-1 mx-4 "></i>
+                             </div>
+                             <div class="d-flex align-items-center justify-content-center">
+                                <div>
+                                    Contact
+                                </div>
+                             </div>   
+                        </a>
+                        <a href="https://appqa.talents.id/#/auth/login" class="btn btn-warning py-2 px-4 mx-5 d-lg-none d-block login">Get Started</a>
                     </div>
                     <a href="https://appqa.talents.id/#/auth/login" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block login">Get Started</a>
                 </div>
@@ -96,7 +141,7 @@
                 <div class="container px-lg-5 py-3">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 py-2 text-center text-lg-start">
-                            <h1 class="text-secondary mb-4 wow animate__animated animate__bounceInDown">BLOG</h1>
+                            <h1 class="text-secondary mb-4 intro-title wow animate__animated animate__bounceInDown">BLOG</h1>
                         </div>
                         <div class="col-lg-6 text-center text-lg-start wow animate__animated animate__bounceInUp">
                             <img class="img-fluid animate-img"src="img/old.png" alt="">
@@ -108,7 +153,7 @@
         <!-- Navbar & Hero End -->
 
 
-        <!-- Projects Start -->
+        <!-- Blogs Start -->
         <div class="container-xxl py-2">
             <div class="container py-5 px-lg-5">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
@@ -120,7 +165,7 @@
                         <ul class="list-inline mb-5" id="portfolio-flters">
                             <li class="mx-2 active" data-filter="*">All</li>
                             <li class="mx-2" data-filter="*">Web Design</li>
-                            <li class="mx-2" data-filter="*"second">Graphic Design</li>
+                            <li class="mx-2" data-filter="*"second>Graphic Design</li>
                         </ul>
                     </div>
                 </div>
@@ -231,7 +276,8 @@
                 </ul>
               </nav>
         </div>
-        <!-- Projects End -->
+        <!-- Blogs End -->
+      
         
 
         <!-- Footer Start -->
@@ -304,6 +350,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://kit.fontawesome.com/115d5e61ee.js" crossorigin="anonymous"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

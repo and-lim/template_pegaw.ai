@@ -23,8 +23,7 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="csslibary/animate.css">
-    <link rel="stylesheet" href="lib/animate/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="lib/all.min.css">
     <link rel="stylesheet" href="lib/font-awesome.min.css">
    
@@ -58,14 +57,41 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-5 py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="feature.html" class="nav-item nav-link active">Fitur</a>
-                        <a href="price.html" class="nav-item nav-link">Harga</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                              <a href="testimonial.html" class="dropdown-item d-flex align-items-center justify-content-between">
+                  <div class="navbar-nav me-lg-auto ms-lg-0 ">
+                    <a href="index.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">                           
+                    <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                        <i class="fa fa-home align-middle ms-auto me-auto px-1 mx-4 "></i>
+                     </div>
+                     <div class="d-flex align-items-center justify-content-center">
+                        <div>
+                            Home
+                        </div>
+                     </div>
+                    </a>
+                    <a href="feature.html" class="nav-item nav-link active d-flex justify-content-between flex-row-reverse flex-lg-row">
+                        <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                            <i class="fa fa-list align-middle ms-auto me-auto px-1 mx-4 "></i>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center">
+                            <div>
+                                Fitur
+                            </div>
+                         </div>   
+                    </a>    
+                    <a href="price.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">
+                        <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                            <i class="fa fa-dollar align-middle ms-auto me-auto px-1 mx-4 "></i>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center">
+                            <div>
+                                Harga
+                            </div>
+                         </div>   
+                    </a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="testimonial.html" class="dropdown-item d-flex align-items-center justify-content-between">
                                 <div class="d-flex align-items-center justify-content-start">
                                     Testimonial
                                 </div>
@@ -82,11 +108,30 @@
                                     <i class="fa fa-question text-warning fw-bold"></i>
                                 </div> 
                             </a>
-                            </div>
                         </div>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
+                    <a href="blog.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">
+                        <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                            <i class="fa fa-blog align-middle ms-auto me-auto px-1 mx-4 "></i>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center">
+                            <div>
+                                Blog
+                            </div>
+                         </div>   
+                    </a>
+                    <a href="contact.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">
+                        <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
+                            <i class="fa fa-phone align-middle ms-auto me-auto px-1 mx-4 "></i>
+                         </div>
+                         <div class="d-flex align-items-center justify-content-center">
+                            <div>
+                                Contact
+                            </div>
+                         </div>   
+                    </a>
+                    <a href="https://appqa.talents.id/#/auth/login" class="btn btn-warning py-2 px-4 mx-5 d-lg-none d-block login">Get Started</a>
+                </div>
                     <a href="https://appqa.talents.id/#/auth/login" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block login">Get Started</a>
                 </div>
             </nav>
@@ -95,7 +140,7 @@
                 <div class="container px-lg-5 py-lg-5 ">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 py-2 text-center text-lg-start">
-                            <h1 class="text-secondary mb-4 title"></h1>
+                            <h1 class="text-secondary mb-4 intro-title"></h1>
                             <p class="text-white pb-3 lead"></p>
                             <a href="" class="btn btn-secondary py-sm-2 px-sm-4 rounded-pill me-3 wow animate__animated animate__fadeInLeft" data-wow-delay="3.5s">Read More</a>
 
@@ -116,7 +161,7 @@
       <ul class="nav nav-pills mb-1 justify-content-center align-items-center wow fadeInLeftBig" id="pills-tab" role="tablist">
         <li class="nav-item btn-tab px-3 py-3 col-lg col-6" role="presentation">
           <button class="nav-link mx-auto btn d-flex flex-column align-items-center justify-content-center nav-tab-btn-light" id="content1-tab" data-bs-toggle="pill" data-bs-target="#content1" type="button" role="tab" aria-controls="content1" aria-selected="true">
-          <i class="fa fa-users fa-5x text-pegawai-lightblue mb-3 d-lg-block d-none"></i>
+          <i class="fa fa-users fa-5x text-pegawai-lightblue mb-3 d-lg-block "></i>
             <strong class="btn text-white bg-primary btn-internal wow animate bounceIn" data-wow-delay="1s">
               <span>
                 Personnel Administration
@@ -126,7 +171,7 @@
         </li>
         <li class="nav-item btn-tab px-3 py-3 col-lg col-6" role="presentation">
           <button class="nav-link mx-auto btn d-flex flex-column align-items-center justify-content-center nav-tab-btn-dark" id="content2-tab" data-bs-toggle="pill" data-bs-target="#content2" type="button" role="tab" aria-controls="content2" aria-selected="false">
-          <i class="fa fa-suitcase fa-5x text-secondary mb-3 d-lg-block d-none"></i>
+          <i class="fa fa-suitcase fa-5x text-secondary mb-3 d-lg-block "></i>
             <strong class="btn text-dark bg-secondary btn-internal wow animate bounceIn" data-wow-delay="1s">
               <span>
                 Organization Management
@@ -136,7 +181,7 @@
         </li>
         <li class="nav-item btn-tab px-3 py-3 col-lg col-6" role="presentation">
           <button class="nav-link mx-auto btn d-flex flex-column align-items-center justify-content-center nav-tab-btn-light" id="content3-tab" data-bs-toggle="pill" data-bs-target="#content3" type="button" role="tab" aria-controls="content3" aria-selected="false">
-          <i class="fa fa-id-badge fa-5x text-brown mb-3 d-lg-block d-none"></i>
+          <i class="fa fa-id-badge fa-5x text-brown mb-3 d-lg-block "></i>
             <strong class="btn text-white bg-primary btn-internal wow animate bounceIn" data-wow-delay="1s">
               <span>
                 Employee Self-Service
@@ -146,7 +191,7 @@
         </li>
         <li class="nav-item btn-tab px-3 py-3 col-lg col-6" role="presentation">
           <button class="nav-link mx-auto btn d-flex flex-column align-items-center justify-content-center nav-tab-btn-light" id="content4-tab" data-bs-toggle="pill" data-bs-target="#content4" type="button" role="tab" aria-controls="content4" aria-selected="false">
-          <i class="fa fa-calendar-day fa-5x text-danger mb-3 d-lg-block d-none"></i>
+          <i class="fa fa-calendar-day fa-5x text-danger mb-3 d-lg-block "></i>
             <strong class="btn text-white bg-danger btn-internal wow animate bounceIn" data-wow-delay="1s">
               <span>
                 Leave Management
@@ -156,7 +201,7 @@
         </li>
         <li class="nav-item btn-tab px-3 py-3 col-lg col-6" role="presentation">
           <button class="nav-link mx-auto btn bg-transparent d-flex flex-column align-items-center justify-content-center nav-tab-btn-light" id="content5-tab" data-bs-toggle="pill" data-bs-target="#content5" type="button" role="tab" aria-controls="content5" aria-selected="false">
-          <i class="fa fa-dollar fa-5x text-success mb-3 d-lg-block d-none"></i>
+          <i class="fa fa-dollar fa-5x text-success mb-3 d-lg-block "></i>
             <strong class="btn text-white bg-success btn-internal wow animate bounceIn" data-wow-delay="1s">
               <span>
                 Payroll Administration
@@ -166,7 +211,7 @@
         </li>
         <li class="nav-item btn-tab px-3 py-3 col-lg col-6" role="presentation">
           <button class="nav-link mx-auto btn d-flex flex-column align-items-center justify-content-center nav-tab-btn-light" id="content6-tab" data-bs-toggle="pill" data-bs-target="#content6" type="button" role="tab" aria-controls="content6" aria-selected="false">
-          <i class="fa fa-clock fa-5x text-purple mb-3 d-lg-block d-none"></i>
+          <i class="fa fa-clock fa-5x text-purple mb-3 d-lg-block "></i>
             <strong class="btn btn-primary text-white bg-purple btn-internal wow animate bounceIn" data-wow-delay="1s">
               <span>
                 Time Management
@@ -1041,7 +1086,7 @@
     <script>
     
         gsap.registerPlugin(TextPlugin);
-        gsap.to('.title',{duration: 1.5, delay:1, text: 'Administrasi pegawai komprehensif & fleksibel'}) 
+        gsap.to('.intro-title',{duration: 1.5, delay:1, text: 'Administrasi pegawai komprehensif & fleksibel'}) 
         gsap.to('.lead',{duration: 1.5, delay:2.5, text: 'Pegaw.ai menawarkan solusi untuk segala jenis kebutuhan dari berbagai skala perusahaan dan industri dengan teknologi HRIS berbasis cloud'}) 
         
     </script>
