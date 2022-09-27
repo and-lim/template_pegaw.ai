@@ -67,6 +67,10 @@ h6,
     font-weight: 500 !important;
 }
 
+.intro-title{
+    font-size: 4rem !important;
+}
+
 
 /*** Button ***/
 .btn {
@@ -104,6 +108,10 @@ h6,
     border-radius: 50px;
 }
 
+.swiper-pagination-bullet-active{
+  background-color: #f4b146 !important;
+  position: relative;
+}
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -154,15 +162,11 @@ h6,
     max-height: 45px;
 }
 
-@media (max-width:500px) {
-    .navbar{
-        position: fixed !important;
-        width: 100%;
-    }
-}
-
 
 @media (max-width: 991.98px) {
+    /* .navbar{
+        background-color: #2d71a2;
+    } */
     .sticky-top.navbar-light {
         position: relative;
         background: #FFFFFF;
@@ -171,6 +175,7 @@ h6,
     .navbar-light .navbar-collapse {
         margin-top: 15px;
         border-top: 1px solid #DDDDDD;
+        background-color: #fff !important;
     }
 
     .navbar-light .navbar-nav .nav-link,
