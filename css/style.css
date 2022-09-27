@@ -293,6 +293,19 @@ background-color: var(--secondary);
 }
 
 
+/* border */
+.border-pegawai{
+    border: solid 5px #d2d9ff;
+    border-radius: 0 120px 120px 0;
+    border-left: none;
+}
+
+.border-pegawai-left{
+    border: solid 5px #d2d9ff;
+    border-right: none;
+    border-radius: 120px 0 0 120px;
+}
+
 /* video */
 .youtube-video {
     width: 100%;
