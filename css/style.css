@@ -1,4 +1,3 @@
-/********** Template CSS **********/
 :root {
     --primary: #223345;
     --secondary: #ffc107;
@@ -6,15 +5,20 @@
     --dark: #04000B;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-*{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500 ; 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 }
 
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 ; 
+}
 
-
+/* background color */
 .bg-gold{
 background-color: #ffe493;
 }
