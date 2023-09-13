@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="lib/all.min.css">
     <link rel="stylesheet" href="lib/font-awesome.min.css">
-   
+    <link rel="stylesheet" href="lib/aos.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,6 @@
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -50,7 +49,7 @@
     
 
         <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
+        <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand px-1 wow animate__animated animate__rotateInDownLeft"data-wow-delay="0.2s" data-wow-duration="2s">
                     <img class = "px-5 " src="img/pegawai.png" alt="">
@@ -60,7 +59,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <div class="navbar-nav me-lg-auto ms-lg-0 ">
+                  <div class="navbar-nav mx-auto ">
                     <a href="index.html" class="nav-item nav-link d-flex justify-content-between flex-row-reverse flex-lg-row">                           
                     <div class="d-lg-none d-flex justify-content-end align-items-center ms-5">
                         <i class="fa fa-home align-middle ms-auto me-auto px-1 mx-4 "></i>
@@ -140,10 +139,10 @@
         </nav>
 
 
-            <div class="container-xxl  bg-primary hero-header ">
-                <div class="container px-lg-5 py-lg-5">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 py-2 text-center text-lg-start">
+            <div class="bg-primary hero-header pb-0 pt-lg-5 ">
+                <div class="container px-lg-5 pt-lg-5">
+                    <div class="row g-5 pt-lg-5 align-items-center">
+                        <div class="col-lg-6 pt-2 text-center text-lg-start">
                             <h1 class="text-secondary mb-4 intro-title animated slideInDown">Harga</h1>
                             <h3 class="text-white pb-3 animated slideInDown">Daftarkan diri Anda ke Aplikasi Pegaw.ai sekarang dan dapatkan akses penuh ke solusi HR komprehensif.</h3>
                             <!-- <a href="" class="btn btn-secondary py-sm-2 px-sm-4 rounded-pill me-3 animated slideInLeft">Read More</a> -->
@@ -153,7 +152,12 @@
                             <img class="img-fluid animate-img" src="img/feature-2-3.png" alt="">
                         </div>
                     </div>
-                </div>
+                  </div>
+                  <div class="w-100 z-1 mt-5 d-flex align-items-center justify-content-center">
+                    <svg id="white-wave-svg" class="w-100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 250" xml:space="preserve">
+                        <path  fill="#fff" d="M1920,250H0V115.5c317.8,91.6,659.8,90.7,960-25s642.2-116.6,960-25V250z"/>
+                      </svg>
+                  </div>
             </div>
         </div>
         <!-- Navbar & Hero End -->
@@ -278,14 +282,15 @@
 
 
         <!-- price -->
-        <div class="container-xxl py-5" id="pricing">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow animate__animated animate__rollIn" data-wow-delay="0.5s">
+      <section>
+        <div class="container mt-lg-0" id="pricing">
+            <div class="container py-0 px-lg-5">
+                <div class="text-center" data-aos="flip-left">
                     <h5 class="text-primary fw-medium">Pricing Plan</h5>
                     <h1 class="mb-5">Choose Your Plan</h1>
                 </div>
                 <div class="tab-class text-center pricing">
-                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary rounded-pill mb-5  text-start wow animate__animated animate__backInLeft" data-wow-delay="1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary rounded-pill mb-5  text-start" data-aos="zoom-in">
                         <li class="nav-item">
                             <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">Monthly</button>
                         </li>
@@ -297,7 +302,7 @@
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row py-5 mb-5 d-flex justify-content-center">
           
-                                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-8 py-3 wow animate__animated animate__bounceInLeft" data-wow-delay="1.5s" >
+                                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-8 py-3" data-aos="fade-right" >
                             
                                   <div class="card text-center shadow">
                                     <div class="card-header bg-primary py-3">
@@ -354,7 +359,7 @@
                             
                                 </div>
                             
-                                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-8 py-3 wow animate__animated animate__bounceInUp" data-wow-delay="1.5s">
+                                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-8 py-3 " data-aos="fade-up">
                             
                                   <div class="card text-center shadow">
                                     <div class="card-header bg-silver py-3">
@@ -411,7 +416,7 @@
                             
                                 </div>
                             
-                                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-8 py-3 wow animate__animated animate__bounceInRight" data-wow-delay="1.5s">
+                                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-8 py-3 "data-aos="fade-left">
                             
                                   <div class="card text-center shadow">
                                     <div class="card-header bg-gold py-3">
@@ -641,15 +646,14 @@
                                   </a>
                                 </div>
                               </div>
-                        
                             </div>
-                        
                           </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+      </section>
 <!-- price -->
 
 
@@ -711,7 +715,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
+   
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -727,6 +731,11 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
 </body>
 
 </html>
