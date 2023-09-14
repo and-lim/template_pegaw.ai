@@ -736,8 +736,8 @@ li.btn-tab{
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
-    padding-top: 9rem;
+    margin-top:1rem;
+    padding-top: 1rem;
     background:
         /* url(../img/bg-top.png), */
         url(../img/map.png);
